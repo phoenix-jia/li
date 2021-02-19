@@ -1,0 +1,366 @@
+2021-01-24 00:03:22.401  INFO 10196 --- [http-nio-8080-exec-6] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:03:22.440  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fad6193 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.450  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@59deecd1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.453  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62f2b08c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.455  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b7e4b8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.462  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@38d52f2f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.464  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1643f480 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.466  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@61c25014 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.468  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5869fab0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.469  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49541ac5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.471  WARN 10196 --- [http-nio-8080-exec-6] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@40ba009b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:03:22.498  INFO 10196 --- [http-nio-8080-exec-6] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:03:22.498  INFO 10196 --- [http-nio-8080-exec-6] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:05:39.830  INFO 10196 --- [http-nio-8080-exec-5] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:05:39.835  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@21ece4a1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.839  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@60d1ee9a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.842  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@17749f0b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.848  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@517ba8a8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.850  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6f348797 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.853  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@fe11d5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.857  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@33415a06 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.874  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3ff38a2e (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.881  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7430aa78 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.884  WARN 10196 --- [http-nio-8080-exec-5] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b06d92 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:05:39.920  INFO 10196 --- [http-nio-8080-exec-5] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:05:39.921  INFO 10196 --- [http-nio-8080-exec-5] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:06:12.578  INFO 10196 --- [http-nio-8080-exec-10] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:06:12.598  INFO 10196 --- [http-nio-8080-exec-10] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:06:12.598  INFO 10196 --- [http-nio-8080-exec-10] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:09:58.777  INFO 10196 --- [http-nio-8080-exec-7] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:09:58.782  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3a1c1551 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.787  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@13172785 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.794  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5cef6b5a (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.798  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6034b0b (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.807  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@403bd6f5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.817  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6abaea78 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.828  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d28e9ce (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.841  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@516fa873 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.864  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4ffd50d5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.868  WARN 10196 --- [http-nio-8080-exec-7] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@72a99a78 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:09:58.931  INFO 10196 --- [http-nio-8080-exec-7] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:09:58.932  INFO 10196 --- [http-nio-8080-exec-7] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:10:13.708  INFO 10196 --- [http-nio-8080-exec-3] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:10:13.738  INFO 10196 --- [http-nio-8080-exec-3] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:10:13.738  INFO 10196 --- [http-nio-8080-exec-3] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:13:30.037  INFO 10196 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:13:30.039  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2d446f8c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.046  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4d001a21 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.048  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7236ee4d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.050  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c80d788 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.051  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@5db708f8 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.053  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@102bd07d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.055  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@55aa00b3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.077  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@2f6ca119 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.079  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4af98cc4 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.081  WARN 10196 --- [http-nio-8080-exec-1] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@49f05de (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:13:30.101  INFO 10196 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:13:30.101  INFO 10196 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:14:28.432  INFO 10196 --- [http-nio-8080-exec-7] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:14:28.446  INFO 10196 --- [http-nio-8080-exec-7] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:14:28.446  INFO 10196 --- [http-nio-8080-exec-7] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:15:43.440  INFO 10196 --- [http-nio-8080-exec-9] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:15:43.452  INFO 10196 --- [http-nio-8080-exec-9] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:15:43.453  INFO 10196 --- [http-nio-8080-exec-9] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:15:43.483 ERROR 10196 --- [http-nio-8080-exec-9] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8080-exec-9] Exception processing template "archives": An error happened during template parsing (template: "class path resource [templates/archives.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "page.totalPages" (template: "archives" - line 64, col 57)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "page.totalPages" (template: "archives" - line 64, col 57)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.GreaterThanExpression.executeGreaterThan(GreaterThanExpression.java:77)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:101)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalPages' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	... 75 common frames omitted
+
+2021-01-24 00:15:43.489 ERROR 10196 --- [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/archives.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'totalPages' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51)
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406)
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92)
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112)
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263)
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166)
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.GreaterThanExpression.executeGreaterThan(GreaterThanExpression.java:77)
+	at org.thymeleaf.standard.expression.ComplexExpression.executeComplex(ComplexExpression.java:101)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:112)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138)
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125)
+	at org.thymeleaf.standard.processor.StandardIfTagProcessor.isVisible(StandardIfTagProcessor.java:59)
+	at org.thymeleaf.standard.processor.AbstractStandardConditionalVisibilityTagProcessor.doProcess(AbstractStandardConditionalVisibilityTagProcessor.java:61)
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74)
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95)
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633)
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314)
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278)
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186)
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124)
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109)
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297)
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402)
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159)
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301)
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230)
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100)
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098)
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072)
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362)
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189)
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1394)
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1139)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1078)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:888)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1597)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+2021-01-24 00:18:20.722  INFO 10196 --- [http-nio-8080-exec-4] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:18:20.725  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3b00cdb3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.728  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6a6f1f5c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.740  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@37fc8499 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.742  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@a2caa80 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.744  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7c26f4b5 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.746  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6e218192 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.759  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@3daa1883 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.771  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@52bdcd1c (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.772  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@19f518a2 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.774  WARN 10196 --- [http-nio-8080-exec-4] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7bba371f (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:18:20.802  INFO 10196 --- [http-nio-8080-exec-4] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:18:20.802  INFO 10196 --- [http-nio-8080-exec-4] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:19:34.929  INFO 8528 --- [restartedMain] com.example.demo.BlogApplication         : Starting BlogApplication using Java 1.8.0_231 on DESKTOP-LNACSKS with PID 8528 (C:\Users\li\IdeaProjects\blogs\target\classes started by li in C:\Users\li\IdeaProjects\blogs)
+2021-01-24 00:19:34.959  INFO 8528 --- [restartedMain] com.example.demo.BlogApplication         : The following profiles are active: dev
+2021-01-24 00:19:35.089  INFO 8528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-24 00:19:35.089  INFO 8528 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-24 00:19:36.009  INFO 8528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-24 00:19:36.109  INFO 8528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 88 ms. Found 5 JPA repository interfaces.
+2021-01-24 00:19:36.949  INFO 8528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-24 00:19:36.969  INFO 8528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-24 00:19:36.969  INFO 8528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 00:19:37.129  INFO 8528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-24 00:19:37.129  INFO 8528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2040 ms
+2021-01-24 00:19:37.349  INFO 8528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-24 00:19:37.399  INFO 8528 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-24 00:19:37.509  INFO 8528 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-24 00:19:37.619  INFO 8528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-24 00:19:37.789  INFO 8528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-24 00:19:37.809  INFO 8528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-01-24 00:19:38.639  INFO 8528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-24 00:19:38.649  INFO 8528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-24 00:19:38.709  INFO 8528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-24 00:19:39.839  WARN 8528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-24 00:19:40.079  INFO 8528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 00:19:40.219  INFO 8528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-24 00:19:40.869  INFO 8528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-24 00:19:40.879  INFO 8528 --- [restartedMain] com.example.demo.BlogApplication         : Started BlogApplication in 7.489 seconds (JVM running for 9.867)
+2021-01-24 00:19:47.035  INFO 8528 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-24 00:19:47.037  INFO 8528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-24 00:19:47.040  INFO 8528 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-24 00:21:39.328  INFO 8528 --- [http-nio-8080-exec-9] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/archives', ip='127.0.0.1', classMethod='com.example.demo.web.ArchiveShowController.archives', args=[{}]}
+2021-01-24 00:21:39.465  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@4b1b8720 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.473  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@75f3d779 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.488  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@62c67c60 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.507  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@63b30b3 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.513  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@7fd874a0 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.519  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@147b3c3d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.524  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@450f67ae (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.542  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@1a6e7914 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.562  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@262f638d (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.575  WARN 8528 --- [http-nio-8080-exec-9] com.zaxxer.hikari.pool.PoolBase          : HikariPool-1 - Failed to validate connection com.mysql.cj.jdbc.ConnectionImpl@6b7839a1 (No operations allowed after connection closed.). Possibly consider using a shorter maxLifetime value.
+2021-01-24 00:21:39.974  INFO 8528 --- [http-nio-8080-exec-9] com.example.demo.aspect.LogAspect        : result :archives
+2021-01-24 00:21:39.976  INFO 8528 --- [http-nio-8080-exec-9] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:21:46.139  INFO 8528 --- [http-nio-8080-exec-5] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.example.demo.web.indexController.search', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}, 知乎]}
+2021-01-24 00:21:46.199  INFO 8528 --- [http-nio-8080-exec-5] com.example.demo.aspect.LogAspect        : result :search
+2021-01-24 00:21:46.200  INFO 8528 --- [http-nio-8080-exec-5] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:21:56.437  INFO 8528 --- [http-nio-8080-exec-10] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/search', ip='127.0.0.1', classMethod='com.example.demo.web.indexController.search', args=[Page request [number: 0, size 2, sort: updateTime: DESC], {}, 你好]}
+2021-01-24 00:21:56.458  INFO 8528 --- [http-nio-8080-exec-10] com.example.demo.aspect.LogAspect        : result :search
+2021-01-24 00:21:56.460  INFO 8528 --- [http-nio-8080-exec-10] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-01-24 00:26:00.341  INFO 8528 --- [Thread-16] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-01-24 00:26:00.345  INFO 8528 --- [Thread-16] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-01-24 00:26:00.358  INFO 8528 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-01-24 00:26:00.369  INFO 8528 --- [Thread-16] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-01-24 00:26:00.932  INFO 8528 --- [restartedMain] com.example.demo.BlogApplication         : Starting BlogApplication using Java 1.8.0_231 on DESKTOP-LNACSKS with PID 8528 (C:\Users\li\IdeaProjects\blogs\target\classes started by li in C:\Users\li\IdeaProjects\blogs)
+2021-01-24 00:26:00.940  INFO 8528 --- [restartedMain] com.example.demo.BlogApplication         : The following profiles are active: dev
+2021-01-24 00:26:01.336  INFO 8528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-24 00:26:01.399  INFO 8528 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 5 JPA repository interfaces.
+2021-01-24 00:26:01.771  INFO 8528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-24 00:26:01.772  INFO 8528 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-24 00:26:01.773  INFO 8528 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 00:26:01.799  INFO 8528 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-24 00:26:01.800  INFO 8528 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 849 ms
+2021-01-24 00:26:01.938  INFO 8528 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-24 00:26:01.947  INFO 8528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2021-01-24 00:26:01.954  INFO 8528 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2021-01-24 00:26:01.954  INFO 8528 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-01-24 00:26:02.211  INFO 8528 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-24 00:26:02.211  INFO 8528 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-24 00:26:02.279  INFO 8528 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-24 00:26:03.457  WARN 8528 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-24 00:26:03.871  INFO 8528 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 00:26:03.940  INFO 8528 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-24 00:26:04.245  INFO 8528 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-24 00:26:04.258  INFO 8528 --- [restartedMain] com.example.demo.BlogApplication         : Started BlogApplication in 3.419 seconds (JVM running for 393.237)
+2021-01-24 00:26:04.260  INFO 8528 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2021-01-24 00:26:29.165  INFO 9536 --- [restartedMain] com.example.demo.BlogApplication         : Starting BlogApplication using Java 1.8.0_231 on DESKTOP-LNACSKS with PID 9536 (C:\Users\li\IdeaProjects\blogs\target\classes started by li in C:\Users\li\IdeaProjects\blogs)
+2021-01-24 00:26:29.169  INFO 9536 --- [restartedMain] com.example.demo.BlogApplication         : The following profiles are active: dev
+2021-01-24 00:26:29.301  INFO 9536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-01-24 00:26:29.301  INFO 9536 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-01-24 00:26:30.441  INFO 9536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-01-24 00:26:30.595  INFO 9536 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 132 ms. Found 5 JPA repository interfaces.
+2021-01-24 00:26:31.917  INFO 9536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-24 00:26:31.927  INFO 9536 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-24 00:26:31.927  INFO 9536 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-24 00:26:32.049  INFO 9536 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-24 00:26:32.049  INFO 9536 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2747 ms
+2021-01-24 00:26:32.339  INFO 9536 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-01-24 00:26:32.409  INFO 9536 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-01-24 00:26:32.553  INFO 9536 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-01-24 00:26:32.715  INFO 9536 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-01-24 00:26:32.913  INFO 9536 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-01-24 00:26:32.934  INFO 9536 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-01-24 00:26:33.966  INFO 9536 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-01-24 00:26:33.975  INFO 9536 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-01-24 00:26:34.051  INFO 9536 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-01-24 00:26:35.248  WARN 9536 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-01-24 00:26:35.504  INFO 9536 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-24 00:26:35.920  INFO 9536 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-01-24 00:26:36.408  INFO 9536 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-24 00:26:36.425  INFO 9536 --- [restartedMain] com.example.demo.BlogApplication         : Started BlogApplication in 8.556 seconds (JVM running for 10.285)
+2021-01-24 00:26:42.518  INFO 9536 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-24 00:26:42.523  INFO 9536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-24 00:26:42.539  INFO 9536 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 15 ms
+2021-01-24 00:26:42.830  INFO 9536 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.web.indexController.index', args=[Page request [number: 0, size 2, sort: UNSORTED], {}]}
+2021-01-24 00:26:43.503  WARN 9536 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-24 00:26:43.577  WARN 9536 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-01-24 00:26:43.636  INFO 9536 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : result :index
+2021-01-24 00:26:43.637  INFO 9536 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------

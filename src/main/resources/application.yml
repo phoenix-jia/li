@@ -1,0 +1,38 @@
+spring:
+    thymeleaf:
+        mode: HTML
+    profiles:
+        active: dev
+    messages:
+      basename: i18n/messages
+    servlet:
+      multipart:
+        max-file-size: 10MB
+        max-request-size: 20MB
+
+comment.avatar: /images/head.png
+
+management:   #acutuator 监控命令
+  endpoints:
+    enabled-by-default: false #关闭所有端点
+    web:
+      exposure:
+        include: '*'
+
+  endpoint:   #打开某一个端点
+    health:
+      show-details: always
+      enabled: true
+    info:
+      enabled: true
+    beans:
+      enabled: true
+    metrics:
+      enabled: true
+
+info:   #acutuator/info
+  appName: Boot-admin
+  appVersion: 1.0.0 
+  mavenProjectName: @project.artifactId@
+  mavenProjectVersion: @project.version@
+

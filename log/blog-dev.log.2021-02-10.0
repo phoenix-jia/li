@@ -1,0 +1,38 @@
+2021-02-10 10:30:26.094  INFO 11636 --- [restartedMain] com.example.demo.BlogApplication         : Starting BlogApplication using Java 1.8.0_231 on DESKTOP-LNACSKS with PID 11636 (C:\Users\li\IdeaProjects\blogs\target\classes started by li in C:\Users\li\IdeaProjects\blogs)
+2021-02-10 10:30:26.102  INFO 11636 --- [restartedMain] com.example.demo.BlogApplication         : The following profiles are active: dev
+2021-02-10 10:30:26.179  INFO 11636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-02-10 10:30:26.180  INFO 11636 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-02-10 10:30:27.799  INFO 11636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-02-10 10:30:27.922  INFO 11636 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 5 JPA repository interfaces.
+2021-02-10 10:30:29.190  INFO 11636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-02-10 10:30:29.202  INFO 11636 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-02-10 10:30:29.203  INFO 11636 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-02-10 10:30:29.318  INFO 11636 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-02-10 10:30:29.318  INFO 11636 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3136 ms
+2021-02-10 10:30:29.699  INFO 11636 --- [restartedMain] c.e.d.servlet.MyServletContextListener   : Listener监听到项目开始
+2021-02-10 10:30:29.704  INFO 11636 --- [restartedMain] com.example.demo.servlet.MyFilter        : filter begin
+2021-02-10 10:30:29.890  INFO 11636 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-02-10 10:30:29.977  INFO 11636 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.25.Final
+2021-02-10 10:30:30.174  INFO 11636 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-02-10 10:30:30.364  INFO 11636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-02-10 10:30:30.632  INFO 11636 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-02-10 10:30:30.657  INFO 11636 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL57Dialect
+2021-02-10 10:30:32.312  INFO 11636 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-02-10 10:30:32.362  INFO 11636 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-02-10 10:30:32.830  INFO 11636 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-02-10 10:30:36.601  WARN 11636 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-02-10 10:30:37.082  INFO 11636 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-02-10 10:30:37.424  INFO 11636 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2021-02-10 10:30:39.061  INFO 11636 --- [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoint(s) beneath base path '/actuator'
+2021-02-10 10:30:39.176  INFO 11636 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-02-10 10:30:39.199  INFO 11636 --- [restartedMain] com.example.demo.BlogApplication         : Started BlogApplication in 14.429 seconds (JVM running for 16.678)
+2021-02-10 10:30:39.747  INFO 11636 --- [RMI TCP Connection(5)-192.168.0.7] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-02-10 10:30:39.748  INFO 11636 --- [RMI TCP Connection(5)-192.168.0.7] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-02-10 10:30:39.751  INFO 11636 --- [RMI TCP Connection(5)-192.168.0.7] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-02-10 10:30:42.955  INFO 11636 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : Request：RequestLog{url='http://127.0.0.1:8080/', ip='127.0.0.1', classMethod='com.example.demo.web.indexController.index', args=[Page request [number: 0, size 2, sort: UNSORTED], {}]}
+2021-02-10 10:30:43.789  WARN 11636 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-02-10 10:30:43.886  WARN 11636 --- [http-nio-8080-exec-1] org.hibernate.orm.deprecation            : HHH90000016: Found use of deprecated 'collection property' syntax in HQL/JPQL query [t.blogs.size]; use collection function syntax instead [size(t.blogs)].
+2021-02-10 10:30:43.919  INFO 11636 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : result :index
+2021-02-10 10:30:43.920  INFO 11636 --- [http-nio-8080-exec-1] com.example.demo.aspect.LogAspect        : ---------------doafter-----------------
+2021-02-10 10:30:45.576  INFO 11636 --- [http-nio-8080-exec-2] com.example.demo.servlet.MyFilter        : filter working
+2021-02-10 13:38:12.251  WARN 11636 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=33m40s811ms551µs620ns).
